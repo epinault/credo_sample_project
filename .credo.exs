@@ -6,6 +6,9 @@
       checks: [
         {Credo.Check.Warning.IExPry, false},
         {MyProject.Checks.MyIExPry, [excluded: ["lib/my_project.ex"]]}
+      ],
+      plugins: [
+        {CredoDemoPlugin, []}
       ]
     }
   ]
