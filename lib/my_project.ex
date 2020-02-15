@@ -3,18 +3,9 @@ defmodule MyProject do
   Documentation for MyProject.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> MyProject.hello()
-      :world
-
-  """
-  def hello do
+  def add(a, b) do
+    c = a + b
     require IEx
     IEx.pry()
-    :world
   end
 end
